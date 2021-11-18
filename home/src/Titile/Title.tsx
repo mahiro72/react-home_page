@@ -3,21 +3,29 @@ import styles from './Title.module.css'
 import axios from 'axios'
 import React, {useState, useEffect} from 'react'
 
+const api_url = process.env.REACT_APP_DEV_JSON_URL;
+
 const Title:React.FC = () => {
-    const [visitor, setVisitor] = useState(0)
-    
+    const [visitor, setVisitor] = useState(0);
 
     useEffect(() => {
-        axios.get('https://my-json-server.typicode.com/mahiro72/MyJSONServer/homepage')
+        axios.get(`${api_url}/homepage`)
         .then(res => {
             setVisitor(res.data.visitor)
-            axios.put('https://my-json-server.typicode.com/mahiro72/MyJSONServer/homepage',visitor+1)
-            console.log(visitor+1,'##')
+            const json_data = {
+                "visitor": res.data.visitor+1
+             }
+            axios.put(
+                `${api_url}/homepage`,
+                json_data,
+                
+                {
+                    headers: {
+                    "Content-Type": "application/json"
+                }
+                }
+            )
         })
-        
-
-
-        
 
     }, [])
     
