@@ -1,0 +1,21 @@
+.title_message{
+    text-align: center;
+    margin-top: 100px;
+
+}
+.title_strong_message{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.title_sub_message{
+    line-height: 0.8rem;
+}
+
+.title_visit_message{
+    font-size: 1.5rem;
+    /* font-weight: bold; */
+
+}.title_visit_message span{
+    color: rgb(97, 33, 156);
+    font-size: 2.1rem;
+}

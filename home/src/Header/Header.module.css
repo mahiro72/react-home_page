@@ -1,0 +1,25 @@
+.header_title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header_div{
+    background-color: #F7F8F9;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+
+    text-align: center;
+    display: flex;
+    justify-content:space-between ;
+
+}
+
+
+.header_div p{
+    margin-right: 50px;
+    margin-left: 50px;
+
+    /* margin-top:auto;
+    margin-bottom: auto; */
+}
+
