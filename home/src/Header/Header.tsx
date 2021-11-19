@@ -10,7 +10,14 @@ const Header:React.FC = () => {
             </div>
             
             <div>
-                
+                <p>
+                    <a 
+                      href="#"
+                      className={styles.header_contact}
+                    >
+                        contact
+                    </a>
+                </p>
             </div>
         </div>
     )

@@ -7,6 +7,7 @@ import Main from './Main/Main';
 import Title from './Titile/Title';
 import Products from './Products/Products';
 import SNS from './SNS/SNS';
+import Footer from './Footer/Footer';
 
 
 function App() {
@@ -16,8 +17,11 @@ function App() {
       <Header />
       <Title />
       <Main />
-      <SNS/>
+      
       <Products />
+      <SNS/>
+
+      <Footer />
       
 
     </div>

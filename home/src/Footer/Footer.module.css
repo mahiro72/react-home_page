@@ -1,0 +1,11 @@
+.footer_div{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(73, 10, 73);
+    
+
+}.footer_div p{
+    color: #F7F8F9;
+    text-align: center;
+    padding:30px;
+}

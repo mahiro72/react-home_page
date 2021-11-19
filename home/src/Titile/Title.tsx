@@ -36,7 +36,10 @@ const Title:React.FC = () => {
     return (
         <div className={styles.title_message}>
             <p className={styles.title_strong_message}>
+                
                 Welcome to Mypage
+                <hr className={styles.cp_hr06}/>
+
             </p>
 
             <p　className={styles.title_visit_message}>

@@ -1,7 +1,6 @@
 .sns_div{
     
-    padding: 50px;
-    margin-bottom: 100px;
+    padding: 20px;
     display: flex;
     justify-content: center;
 }
@@ -18,13 +17,21 @@
 
 .sns_box{
     background-color: rgb(242, 241, 255);
+    /* margin-bottom: auto; */
 }
 .sns_title{
     text-align:center;
     padding-top:10px;
 }
 
-.sns_title p{
-    font-size: 2.5rem;
+.sns_title_main{
+    font-size: 2.8rem;
     font-weight: bold;
+}
+.sns_title_sub{
+    font-size: 1rem;
+}
+.sns_sub_sm p{
+    text-align:center;
+    font-size: 0.7rem;
 }

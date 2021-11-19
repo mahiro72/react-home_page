@@ -1,12 +1,29 @@
 .title_message{
     text-align: center;
-    margin-top: 100px;
+    padding-top: 150px;
 
 }
 .title_strong_message{
     font-size: 3rem;
     font-weight: bold;
+    
 }
+
+.cp_hr06 {
+	position: relative;
+	height: 4px;
+	border-width: 0;
+	background-image: -webkit-linear-gradient(left,
+	transparent 0%,rgb(97, 33, 156) 50%,transparent 100%);
+	background-image:         linear-gradient(90deg,
+	transparent 0%,rgb(97, 33, 156) 50%,transparent 100%);
+
+    width: 600px;
+    margin-top: 0;
+}
+
+
+
 .title_sub_message{
     line-height: 0.8rem;
 }
@@ -16,6 +33,7 @@
     /* font-weight: bold; */
 
 }.title_visit_message span{
-    color: rgb(97, 33, 156);
-    font-size: 2.1rem;
+    color: rgba(187, 19, 125, 0.8);
+    font-size: 2.6rem;
+    /* font-weight: bold; */
 }
