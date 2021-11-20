@@ -29,7 +29,7 @@ const Products:React.FC = () => {
 
         
             <div className={styles.product_contents}>
-                <div  className={styles.product_contents_mar}>
+                <div className={styles.product_contents_mar}>
                     <a href="https://react-et.vercel.app/"target='_blank'>
                         <img 
                             src={`${process.env.PUBLIC_URL}/images/engineertree_pr.png`} 

@@ -8,7 +8,7 @@ const Main:React.FC = () => {
                 <img 
                 src={`${process.env.PUBLIC_URL}/images/my_profile.png`} 
                 alt="my_profile" 
-                style={{height:350,width:350}}
+                
                 />
             </div>
 
@@ -17,8 +17,8 @@ const Main:React.FC = () => {
                 <p>現在就職活動中の学部３年生です</p>
                 <p>このサイトには私の制作物がまとめてあります</p>
                 <p>是非ご覧ください!!</p>
+                <p>また、このサイトはreact,typescriptで作られております!</p>
             </div>
-            
             
         </div>
     )

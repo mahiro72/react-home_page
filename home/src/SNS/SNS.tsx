@@ -23,7 +23,8 @@ const SNS:React.FC = () => {
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/twitter.png`} 
                             alt="twitter" 
-                            style={{height:150,width:150}}
+                            // style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>     
                         <div className={styles.sns_sub}>
@@ -36,7 +37,7 @@ const SNS:React.FC = () => {
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/github.png`} 
                             alt="github" 
-                            style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>   
                         
@@ -51,7 +52,7 @@ const SNS:React.FC = () => {
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/qiita.jpg`} 
                             alt="qiita"
-                            style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>   
 
@@ -70,7 +71,7 @@ const SNS:React.FC = () => {
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/atcoder_logo.png`} 
                             alt="atcoder" 
-                            style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>     
                         <div className={styles.sns_sub}>
@@ -83,7 +84,7 @@ const SNS:React.FC = () => {
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/kaggle_logo.png`} 
                             alt="kaggle" 
-                            style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>   
                         
@@ -94,16 +95,16 @@ const SNS:React.FC = () => {
                     </div>
 
                     <div className={styles.sns_content}>
-                        <a href="" target='_blank'>
+                        <a href="mailto:mahiro.yoshie@gmail.com?subject=mahiro's blog" target='_blank'>
                             <img 
                             src={`${process.env.PUBLIC_URL}/images/gmail_logo.png`} 
                             alt="mail"
-                            style={{height:150,width:150}}
+                            className={styles.sns_content_img}
                             />
                         </a>   
 
-                        <div className={styles.sns_sub_sm}>
-                            <p>mahiro.yoshie@gmail.com</p> 
+                        <div className={styles.sns_sub}>
+                            <p>gmail</p> 
                         </div>
                         
                     </div>
