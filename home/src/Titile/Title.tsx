@@ -7,7 +7,7 @@ import React, {useState, useEffect} from 'react'
 const api_url = process.env.REACT_APP_DEV_JSON_URL;
 
 const Title:React.FC = () => {
-    const [visitor, setVisitor] = useState(1);
+    const [visitor, setVisitor] = useState();
 
     useEffect(() => {
         axios.get(`${api_url}`)
