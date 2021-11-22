@@ -63,6 +63,10 @@ const Products:React.FC = () => {
                         <p>テストユーザーは以下の通りです。loginしてみてください!</p>
                         <p>email : hoge@mail.com</p>
                         <p>password : hogehoge</p>
+
+                        <p>バックエンドにherokuを使用しているため</p>
+                        <p>sleep状態だとうまくログインできないかもしれないです</p>
+                        <p>1,2回ログインを試してみてください...</p>
                         
                     </div>
                     
