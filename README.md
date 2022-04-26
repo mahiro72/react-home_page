@@ -1,17 +1,42 @@
-# Home page
+# My portfolio
+
+自分のポートフォリオサイト
+
+vercelでデプロイ
+
+ホームページは[こちら](https://home-page-sino72.vercel.app/) から
 
 
-[home page](https://home-page-sino72.vercel.app/)
+## Gettging started
+
+react appの作成
+
+```
+npx create-react-app home  --template typescript
+```
+
+<br>
+
+環境変数読み込み
+
+```
+npm install dotenv-webpack 
+```
+
+<br>
+
+json server
+
+```
+npm install -g json-server 
+```
 
 
 ## memo
-追加したい機能
+### 追加したい機能
 
-visitcounter
-Cancel changes
-
+- contactformの完成
 
 
-npx create-react-app home  --template typescript
-npm install dotenv-webpack (環境変数読み込み)
-npm install -g json-server (json server)
+## Reference
+
